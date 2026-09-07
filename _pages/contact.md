@@ -19,18 +19,6 @@ nav_order: 4
   <div class="col mb-4">
     <div class="card h-100 z-depth-0">
       <div class="card-body">
-        <h5 class="card-title">Office</h5>
-        <p class="card-text">
-          Department of Agricultural &amp; Resource Economics<br>
-          University of Arizona<br>
-          Tucson, AZ 85721
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card h-100 z-depth-0">
-      <div class="card-body">
         <h5 class="card-title">AIDE Lab</h5>
         <p class="card-text">Co-Director, Applied International Development Economics Lab</p>
         <p class="card-text"><a href="https://aidelab.arizona.edu/" target="_blank" rel="noopener">aidelab.arizona.edu &rarr;</a></p>
