@@ -19,7 +19,6 @@ icon: 🌾 # the emoji used as the favicon (alternatively, provide image name in
 
 url: https://aljosephson.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/ — leave empty for a <username>.github.io personal site
-last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer
 
 # -----------------------------------------------------------------------------
