@@ -68,6 +68,14 @@ body.sticky-bottom-footer {
   align-items: flex-start;
   gap: 3rem;
 
+  // .banner needs position:relative for its full-bleed breakout, which
+  // (per CSS stacking rules) makes it paint above ordinary, non-positioned
+  // content regardless of DOM order. Promote this element too, and stack it
+  // explicitly above the banner, so the overlap actually shows content on
+  // top of the banner instead of the reverse.
+  position: relative;
+  z-index: 1;
+
   &.author-header--overlap {
     margin-top: -110px;
   }
