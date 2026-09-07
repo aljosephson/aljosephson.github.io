@@ -19,7 +19,7 @@ layout: default
       {% endif -%}
 
       <h1 class="profile-card__name">
-        {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+        {% if site.title == "blank" -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
       </h1>
       <p class="profile-card__subtitle">{{ page.subtitle }}</p>
 

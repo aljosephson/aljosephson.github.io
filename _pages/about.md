@@ -13,7 +13,7 @@ profile:
     <p>University of Arizona &middot; Tucson, AZ</p>
 
 news: false
-selected_papers: true
+selected_papers: false
 social: true
 ---
 
@@ -21,11 +21,4 @@ I am an Associate Professor in the Department of Agricultural and Resource Econo
 
 My research focuses on the measurement and how data, methods, and assumptions shape our understanding of well-being.
 
-<div class="row">
-  <div class="col-sm-3 col-4">
-    <img src="{{ '/assets/img/book-cover.png' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Research Ethics in Applied Economics book cover">
-  </div>
-  <div class="col-sm-9 col-8">
-    <p>My book, <a href="https://www.routledge.com/Research-Ethics-in-Applied-Economics-A-Practical-Guide/Josephson-Michler/p/book/9780367457419" target="_blank" rel="noopener"><strong>Research Ethics in Applied Economics: A Practical Guide</strong></a>, is published by Routledge (2023).</p>
-  </div>
-</div>
+My book with Jeffrey Michler, [Research Ethics in Applied Economics: A Practical Guide](https://www.routledge.com/Research-Ethics-in-Applied-Economics-A-Practical-Guide/Josephson-Michler/p/book/9780367457419), is available from Routledge and [Amazon](https://www.amazon.com/Research-Ethics-Applied-Economics-Practical-ebook/dp/B0BX9F56CF).

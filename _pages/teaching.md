@@ -2,12 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Courses, mentoring, and training at the University of Arizona.
 nav: true
 nav_order: 2
 ---
 
-## Courses at the University of Arizona
+## Current Teaching
 
 <div class="table-responsive">
 <table class="table">
@@ -20,29 +19,55 @@ nav_order: 2
   </thead>
   <tbody>
     <tr>
-      <td>Economics of Food &amp; Agriculture: Sustainable Solutions for a Changing World</td>
+      <td>The Global Economy of Food: Sustaining Life</td>
+      <td>Undergraduate</td>
+      <td>Fall 2018&ndash;2021, 2023&ndash;2025 &middot; Spring 2022&ndash;2025 &middot; Summer 2020&ndash;2024</td>
+    </tr>
+    <tr>
+      <td>The Economics of Food and Agriculture: Sustainable Solutions for a Changing World</td>
       <td>Undergraduate</td>
       <td>Fall 2025</td>
     </tr>
     <tr>
-      <td>Sustaining Life: The Global Economy of Food</td>
-      <td>Undergraduate</td>
-      <td>Fall 2018&ndash;2021, 2023&ndash;2025 &middot; Summer 2020&ndash;2024 &middot; Spring 2023&ndash;2025</td>
-    </tr>
-    <tr>
-      <td>Graduate Student Seminar in Applied Economics (MS)</td>
+      <td>Graduate Seminar in Applied Economics</td>
       <td>Graduate</td>
       <td>Fall 2024&ndash;2025 &middot; Spring 2024&ndash;2026</td>
     </tr>
+  </tbody>
+</table>
+</div>
+
+## Previously Taught Courses
+
+<div class="table-responsive">
+<table class="table">
+  <thead>
     <tr>
-      <td>Microeconomics of Development (MS)</td>
+      <th>Course</th>
+      <th>Level</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Microeconomics of Economic Development</td>
       <td>Graduate</td>
-      <td>Fall 2020&ndash;2021</td>
+      <td>Fall 2020, 2021</td>
     </tr>
     <tr>
-      <td>Consumption Economics and Price Analysis (MS)</td>
+      <td>Consumption Theory and Price Analysis</td>
       <td>Graduate</td>
-      <td>Fall 2018</td>
+      <td>University of Arizona, 2018</td>
+    </tr>
+    <tr>
+      <td>Advanced Methods in Impact Assessment to the CGIAR</td>
+      <td></td>
+      <td>IRRI &ndash; Los Ba&ntilde;os (2019) &middot; WorldFish &ndash; Penang (2017)</td>
+    </tr>
+    <tr>
+      <td>Introduction to Macroeconomics</td>
+      <td>Undergraduate</td>
+      <td>Purdue University, 2015</td>
     </tr>
   </tbody>
 </table>
@@ -51,10 +76,8 @@ nav_order: 2
 ## Other Teaching &amp; Training
 
 - **Co-Instructor, Summer Workshop for NIFA USDA Agriculture Training Cohort** — Summer 2024, 2025
-- **Co-Instructor, Short Course in Impact Assessment** — Los Ba&ntilde;os, Philippines (Winter 2019) &middot; Penang, Malaysia (Spring 2017)
 - **Consultant, World Bank Group**
 - **Visiting Scholar, ICRISAT** (International Crops Research Institute for the Semi-Arid Tropics) — 2016&ndash;2017
-- **Primary Instructor, Principles of Macroeconomics** — Purdue University, Summer 2015
 
 ## Student Advising &amp; Mentoring
 
