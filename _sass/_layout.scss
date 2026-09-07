@@ -66,7 +66,7 @@ body.sticky-bottom-footer {
 .author-header {
   display: flex;
   align-items: flex-start;
-  gap: 3rem;
+  gap: 2rem;
 
   // .banner needs position:relative for its full-bleed breakout, which
   // (per CSS stacking rules) makes it paint above ordinary, non-positioned
@@ -76,10 +76,22 @@ body.sticky-bottom-footer {
   position: relative;
   z-index: 1;
 
+  // Both the profile card and the bio-text box overlap the banner together
+  // -- this is safe (unlike overlapping banner with bare text) because both
+  // have solid white backgrounds, so the overlap is simply masked rather
+  // than needing pixel-precise spacing to avoid text sitting on the image.
+  &.author-header--overlap {
+    margin-top: -90px;
+  }
+
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
+
+    &.author-header--overlap {
+      margin-top: -60px;
+    }
   }
 }
 
@@ -90,27 +102,18 @@ body.sticky-bottom-footer {
   border-radius: 10px;
   padding: 1.25rem;
   text-align: center;
-
-  // Only the card itself overlaps the banner — the bio text next to it
-  // (.author-content) stays flush below the banner instead of being
-  // dragged up into it.
-  .author-header--overlap & {
-    margin-top: -110px;
-  }
+  box-shadow: 0 2px 18px -6px rgba(0, 0, 0, 0.25);
 
   @media (max-width: 768px) {
     flex: 0 0 auto;
     width: 220px;
-
-    .author-header--overlap & {
-      margin-top: -70px;
-    }
   }
 
   &__photo {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+    object-position: 28% 22%;
     margin-bottom: 1rem;
   }
 
@@ -160,10 +163,15 @@ body.sticky-bottom-footer {
 .author-content {
   flex: 1 1 auto;
   min-width: 0;
-  padding-top: 1.5rem;
+  align-self: stretch;
+
+  background-color: var(--global-card-bg-color);
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 18px -6px rgba(0, 0, 0, 0.25);
 
   @media (max-width: 768px) {
-    padding-top: 0;
+    padding: 1.5rem;
   }
 }
 
