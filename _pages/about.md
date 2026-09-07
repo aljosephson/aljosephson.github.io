@@ -13,7 +13,7 @@ profile:
     <p>University of Arizona &middot; Tucson, AZ</p>
 
 news: false
-selected_papers: false
+selected_papers: true
 social: true
 ---
 
