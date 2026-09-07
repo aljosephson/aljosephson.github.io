@@ -2,7 +2,6 @@
 layout: page
 permalink: /contact/
 title: contact
-description: How to reach me, and information for prospective graduate students.
 nav: true
 nav_order: 4
 ---
@@ -46,15 +45,4 @@ nav_order: 4
 <p style="text-align:center;">
   <a href="https://www.bitss.org/people/anna-josephson/" target="_blank" rel="noopener">BITSS</a> &middot;
   <a href="https://gidp.arizona.edu/glch" target="_blank" rel="noopener">Global Change GIDP</a>
-</p>
-
-## For Prospective Students
-
-The AIDE Lab currently has M.S. Graduate Research Assistantship opportunities available for students interested in working on issues of **food security**, **agriculture**, and **shocks**. We are always seeking students with expertise in statistical analysis and programming (e.g., Stata, Python, R).
-
-If you're interested in joining the lab, please email me with your CV and a brief description of your research interests.
-
-<p>
-  <a href="mailto:{{ site.email | encode_email }}" class="btn btn-sm z-depth-0" role="button">Get in Touch</a>
-  <a href="https://aidelab.arizona.edu/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Learn About the AIDE Lab</a>
 </p>
