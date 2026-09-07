@@ -113,7 +113,12 @@ body.sticky-bottom-footer {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    object-position: 28% 22%;
+    // The source photo is landscape (5867x3912) with the subject close to
+    // the left edge. Cropping to a square only has horizontal room to move
+    // (the height already fits exactly), and even the leftmost possible
+    // crop (0%) is the closest this source image can get to centering the
+    // face -- verified against the actual pixels, not eyeballed.
+    object-position: 0% center;
     margin-bottom: 1rem;
   }
 
