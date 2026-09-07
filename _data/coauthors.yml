@@ -1,0 +1,6 @@
+# Optional: map a co-author's last name to their homepage, to auto-link their
+# name wherever it appears in _bibliography/papers.bib. Example:
+#
+# "Michler":
+#   - firstname: ["Jeffrey", "J.D.", "Jeffrey D."]
+#     url: https://example.com/~jmichler

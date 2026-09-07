@@ -1,0 +1,173 @@
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+
+body {
+  padding-bottom: 70px;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+
+  h1, h2, h3, h4, h5, h6 {
+    scroll-margin-top: 66px;
+  }
+}
+
+body.fixed-top-nav {
+  // Add some padding for the nav-bar.
+  padding-top: 56px;
+}
+
+body.sticky-bottom-footer {
+  // Remove padding below footer.
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: $max-content-width;
+}
+
+// Profile
+.profile {
+  img {
+    width: 100%;
+  }
+}
+
+/******************************************************************************
+ * Home / About — banner + overlapping profile card
+ ******************************************************************************/
+
+// Remove the default top margin on the page that contains the banner, so
+// the banner sits directly under the fixed navbar instead of leaving a gap.
+.container:has(> .banner) {
+  margin-top: 0;
+}
+
+.banner {
+  // Full-bleed breakout: the banner ignores the .container max-width and
+  // spans the full viewport, regardless of where it sits in the DOM.
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+
+  height: 320px;
+  background-size: cover;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+
+  @media (max-width: 768px) {
+    height: 200px;
+  }
+}
+
+.author-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+
+  &.author-header--overlap {
+    margin-top: -110px;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+    &.author-header--overlap {
+      margin-top: -70px;
+    }
+  }
+}
+
+.profile-card {
+  flex: 0 0 260px;
+  width: 260px;
+  background-color: var(--global-card-bg-color);
+  border-radius: 10px;
+  padding: 1.25rem;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    flex: 0 0 auto;
+    width: 220px;
+  }
+
+  &__photo {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  &__name {
+    font-size: 1.5rem;
+    margin-bottom: 0.15rem;
+  }
+
+  &__subtitle {
+    font-size: 1rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.75rem;
+  }
+
+  .address {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    font-family: inherit;
+    margin-bottom: 0.75rem;
+
+    p {
+      display: block !important;
+      margin: 0;
+    }
+  }
+
+  &__social {
+    font-size: 1.6rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--global-divider-color);
+
+    a {
+      margin: 0 0.35rem;
+
+      i::before {
+        color: var(--global-text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+      &:hover i::before {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
+.author-content {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding-top: 1.5rem;
+
+  @media (max-width: 768px) {
+    padding-top: 0;
+  }
+}
+
+// TODO: redefine content layout.
+
+
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
+
+// TODO: redefine publications layout.
+
+
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+
+// TODO: redefine projects layout.

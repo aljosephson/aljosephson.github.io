@@ -1,0 +1,240 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: blank # the website title (if blank, full name will be used instead)
+first_name: Anna
+middle_name: ""
+last_name: Josephson
+email: aljosephson@arizona.edu
+description: >
+  Anna Josephson is an Associate Professor of Agricultural and Resource Economics at the University of Arizona, studying the measurement of food security, weather, and well-being in low-income countries.
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: agricultural economics, development economics, food security, weather measurement, remote sensing, research ethics
+
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: 🌾 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+
+url: https://aljosephson.github.io # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/ — leave empty for a <username>.github.io personal site
+last_updated: true # set to true if you want to display last updated in the footer
+impressum_path: # set to path to include impressum link in the footer
+
+# -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
+
+rss_icon: false
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: false
+
+# Dimensions
+max_width: 900px
+
+# -----------------------------------------------------------------------------
+# Open Graph & Schema.org
+# -----------------------------------------------------------------------------
+
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://aljosephson.github.io/assets/img/banner.png # The site-wide (default for all links) Open Graph preview image
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username: aljosephson
+gitlab_username:
+twitter_username:
+linkedin_username:
+scholar_userid: ImFz5JYAAAAJ
+orcid_id: 0000-0001-6739-7442
+medium_username:
+quora_username:
+publons_id:
+research_gate_profile:
+blogger_url:
+work_url: https://aidelab.arizona.edu/
+keybase_username:
+wikidata_id:
+dblp_url:
+stackoverflow_id:
+
+contact_note: >
+  I'm always happy to hear from prospective graduate students, collaborators, and journalists — email is the best way to reach me.
+
+google_analytics:
+google_site_verification:
+bing_site_verification:
+panelbear_analytics:
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+
+news_limit: 5
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Markdown and syntax highlight
+markdown: kramdown
+highlighter: rouge
+highlight_theme_light: github # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_dark: native # https://github.com/jwarby/jekyll-pygments-themes
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+# Includes & excludes
+include: ["_pages"]
+exclude:
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - josephson_cv.tex
+keep_files:
+  - CNAME
+  - .nojekyll
+  - .git
+
+# Plug-ins
+plugins:
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-imagemagick
+  - jekyll-minifier
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-target-blank
+
+# Sitemap settings
+defaults:
+  - scope:
+      path: "assets/**/*.*"
+    values:
+      sitemap: false
+
+# -----------------------------------------------------------------------------
+# Jekyll Minifier
+# -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  exclude: ["robots.txt"]
+  uglifier_args:
+    harmony: true
+
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+
+scholar:
+  last_name: Josephson
+  first_name: [Anna, A.]
+
+  style: apa
+  locale: en
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, altmetric, dimensions]
+
+# -----------------------------------------------------------------------------
+# Responsive WebP Images
+# -----------------------------------------------------------------------------
+
+imagemagick:
+  enabled: true
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img/
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+  output_formats:
+    webp: "-quality 75%"
+
+# -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
+
+enable_google_analytics: false
+enable_panelbear_analytics: false
+enable_google_verification: false
+enable_bing_verification: false
+enable_math: false # not needed for this site; set true if you ever add math-heavy content
+enable_tooltips: false
+enable_darkmode: true
+enable_navbar_social: false
+enable_medium_zoom: true
+
+# -----------------------------------------------------------------------------
+# Library versions
+# -----------------------------------------------------------------------------
+
+academicons:
+  version: "1.9.1"
+  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
+bootstrap:
+  version: "4.6.1"
+  integrity:
+    css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
+    js: "sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI="
+fontawesome:
+  version: "5.15.4"
+  integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
+jquery:
+  version: "3.6.0"
+  integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+mathjax:
+  version: "3.2.0"
+mdb:
+  version: "4.20.0"
+  integrity:
+    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+    js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+popper:
+  version: "2.11.2"
+  integrity: "sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4="
+medium_zoom:
+  version: "1.0.6"
+  integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
