@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<!-- about.html -->
+{% if page.banner %}
+{%- assign banner_image_path = page.banner | prepend: 'assets/img/' | relative_url -%}
+<div class="banner" style="background-image: url('{{ banner_image_path }}');"></div>
+{% endif %}
+
+<div class="post">
+  <div class="author-header {% if page.banner %}author-header--overlap{% endif %}">
+
+    {% if page.profile -%}
+    <div class="profile-card z-depth-1">
+      {%- if page.profile.image %}
+        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+        {% include figure.html
+        path=profile_image_path
+        class="img-fluid rounded profile-card__photo"
+        alt=page.profile.image -%}
+      {% endif -%}
+
+      <h1 class="profile-card__name">
+        {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+      </h1>
+      <p class="profile-card__subtitle">{{ page.subtitle }}</p>
+
+      {%- if page.profile.address %}
+      <div class="address">
+        {{ page.profile.address }}
+      </div>
+      {%- endif %}
+
+      {%- if page.social %}
+      <div class="profile-card__social">
+        {% include social.html %}
+      </div>
+      {%- endif %}
+    </div>
+    {%- endif %}
+
+    <article class="author-content">
+      <div class="clearfix">
+        {{ content }}
+      </div>
+
+      {% if page.news -%}
+      <!-- News -->
+      {%- include news.html %}
+      {%- endif %}
+      {% if page.selected_papers -%}
+        <!-- Selected papers -->
+        {%- include selected_papers.html %}
+      {%- endif %}
+    </article>
+
+  </div>
+</div>

@@ -1,0 +1,17 @@
+.DS_Store
+.vscode/
+node_modules/
+*.log
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+.bundle/
+Gemfile.lock
+
+# LaTeX build artifacts (CV)
+*.aux
+*.out
