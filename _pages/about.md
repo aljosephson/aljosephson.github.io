@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Associate Professor, Agricultural &amp; Resource Economics, University of Arizona
+subtitle: Associate Professor
 
 banner: banner.png
 
