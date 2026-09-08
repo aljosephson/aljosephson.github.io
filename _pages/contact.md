@@ -6,7 +6,7 @@ nav: true
 nav_order: 4
 ---
 
-<div class="row row-cols-1 row-cols-md-2">
+<div class="row row-cols-1 row-cols-md-3">
   <div class="col mb-4">
     <div class="card h-100 z-depth-0">
       <div class="card-body">
@@ -34,15 +34,10 @@ nav_order: 4
   </div>
 </div>
 
-## Academic &amp; Social Profiles
+## find me here
 
 <div class="social">
   <div class="contact-icons">
     {% include social.html %}
   </div>
 </div>
-
-<p style="text-align:center;">
-  <a href="https://www.bitss.org/people/anna-josephson/" target="_blank" rel="noopener">BITSS</a> &middot;
-  <a href="https://gidp.arizona.edu/glch" target="_blank" rel="noopener">Global Change GIDP</a>
-</p>
