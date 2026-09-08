@@ -19,7 +19,6 @@ nav_order: 4
     <div class="card h-100 z-depth-0">
       <div class="card-body">
         <h5 class="card-title">AIDE Lab</h5>
-        <p class="card-text">Co-Director, Applied International Development Economics Lab</p>
         <p class="card-text"><a href="https://aidelab.arizona.edu/" target="_blank" rel="noopener">aidelab.arizona.edu &rarr;</a></p>
       </div>
     </div>
@@ -34,7 +33,7 @@ nav_order: 4
   </div>
 </div>
 
-## find me here
+<h2 style="text-align: center;">find me here</h2>
 
 <div class="social">
   <div class="contact-icons">
