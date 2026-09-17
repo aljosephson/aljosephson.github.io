@@ -6,6 +6,14 @@ nav: true
 nav_order: 4
 ---
 
+<h2 style="text-align: center;">find me here</h2>
+
+<div class="social">
+  <div class="contact-icons">
+    {% include social.html %}
+  </div>
+</div>
+
 <div class="row row-cols-1 row-cols-md-3">
   <div class="col mb-4">
     <div class="card h-100 z-depth-0">
@@ -30,13 +38,5 @@ nav_order: 4
         <p class="card-text"><a href="https://cals.arizona.edu/arec/faculty/anna-josephson" target="_blank" rel="noopener">Faculty Profile &rarr;</a></p>
       </div>
     </div>
-  </div>
-</div>
-
-<h2 style="text-align: center;">find me here</h2>
-
-<div class="social">
-  <div class="contact-icons">
-    {% include social.html %}
   </div>
 </div>
