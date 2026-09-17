@@ -75,26 +75,25 @@ I am recruiting graduate students for M.S. programs in Applied Econometrics & Da
 </table>
 </div>
 
-## Instructional Materials
-
-**Ethics in Applied Economics** (with Jeffrey Michler) &mdash; lecture materials from our graduate ethics workshop, part of the BITSS-funded *Open Science in Agricultural Economics* project ([osf.io/3vtng](https://osf.io/3vtng/), under Files &gt; BITSS: Open Science in Agricultural Economics):
-
-- [Research and Ethics in Agricultural and Resource Economics: First Years, Part 1]({{ '/assets/pdf/lecture-ethics1-year1.pdf' | relative_url }})
-- [Research and Ethics in Agricultural and Resource Economics: Conducting Ethical Research]({{ '/assets/pdf/lecture-ethics2-year1.pdf' | relative_url }}) (Ethics 2, Year 1)
-- [Research and Ethics in Agricultural and Resource Economics: Publishing and Peer Review]({{ '/assets/pdf/lecture-ethics1-year2.pdf' | relative_url }}) (Ethics 1, Year 2)
-- [Project description and additional links]({{ '/assets/pdf/open-science-agecon-description.pdf' | relative_url }})
-
-Feel free to reach out for more materials from this project.
-
-**Coding and Pre-Analysis Plans for Industry**, by Ann Furbush &mdash; developed for her BITSS award, [Pre-Specification and Reproducibility Outside of Academia](https://www.bitss.org/pre-specification-and-reproducibility-outside-of-academia/):
-
-- [Coding Best Practices and Version Control]({{ '/assets/pdf/furbush-coding-best-practices.pdf' | relative_url }})
-- [Pre-Analysis Planning in Non-Academic Research]({{ '/assets/pdf/furbush-pre-analysis-planning.pdf' | relative_url }})
-
 ## Student Awards
 
 - *Outstanding Master's Thesis, AAEA* — Advisor to Chandrakant Agme (2025), "Variable Selection in Economic Applications of Remotely Sensed Weather Data"; and Emil Kee-Tui (2022), "Labor, Credit, and Markets: Evidence from the Philippines, 1971&ndash;2016"
 - *VIP and CURE Poster Session: People's Choice Award* — Mentor to Kieran Douglas &amp; Aurora Seekins (2025)
+
+## Instructional Materials
+
+**Ethics in Applied Economics** (with Jeffrey Michler): lecture materials from our graduate ethics workshop, part of the BITSS-funded *Open Science in Agricultural Economics* project:
+
+- [Research and Ethics in Agricultural and Resource Economics: An Introduction]({{ '/assets/pdf/lecture-ethics1-year1.pdf' | relative_url }})
+- [Research and Ethics in Agricultural and Resource Economics: Conducting Ethical Research]({{ '/assets/pdf/lecture-ethics2-year1.pdf' | relative_url }})
+- [Research and Ethics in Agricultural and Resource Economics: Publishing and Peer Review]({{ '/assets/pdf/lecture-ethics1-year2.pdf' | relative_url }})
+
+Feel free to reach out for more materials from this project.
+
+**Coding and Pre-Analysis Plans for Industry**, by Ann Furbush: developed for her BITSS award, [Pre-Specification and Reproducibility Outside of Academia](https://www.bitss.org/pre-specification-and-reproducibility-outside-of-academia/):
+
+- [Coding Best Practices and Version Control]({{ '/assets/pdf/furbush-coding-best-practices.pdf' | relative_url }})
+- [Pre-Analysis Planning in Non-Academic Research]({{ '/assets/pdf/furbush-pre-analysis-planning.pdf' | relative_url }})
 
 I regularly work with undergraduate students in independent studies and guided research experiences. Check out some student spotlights from my current and former students, including [Freddy Driesen](https://economics.arizona.edu/news/2020/08/student-spotlight-freddy-driesen), [Brenda Jimenez](https://economics.arizona.edu/news/2020/08/student-spotlight-brenda-esmeralda-jimenez), [Stephanie Perez](https://economics.arizona.edu/news/2020/08/student-spotlight-stephanie-perez), and [Samantha Wetherell](https://economics.arizona.edu/news/2022/01/student-spotlight-samantha-wetherell).
 
