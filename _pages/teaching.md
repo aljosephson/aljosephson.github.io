@@ -6,7 +6,90 @@ nav: true
 nav_order: 2
 ---
 
-I am always recruiting graduate students for [M.S. programs](https://arec.arizona.edu/graduate/overview) in Applied Econometrics & Data Analytics and in Applied Economics and Policy Analysis. I am currently serving as the [Director of Graduate Studies](https://arec.arizona.edu/graduate/graduate-coordinators), so you can reach out to me about any interest in AREC Graduate Programs.
+I am recruiting graduate students for M.S. programs in Applied Econometrics & Data Analytics and in Applied Economics & Policy Analysis. I currently serve as the [Director of Graduate Studies](https://arec.arizona.edu/graduate/graduate-coordinators), so you can reach out to me about any interest in AAE Graduate Programs.
+
+## Current Teaching
+
+<div class="table-responsive">
+<table class="table table-sm">
+  <thead>
+    <tr>
+      <th>Course</th>
+      <th>Level</th>
+      <th>Semesters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The Global Economy of Food: Sustaining Life</td>
+      <td>Undergraduate</td>
+      <td>Fall 2018&ndash;2021, 2023&ndash;2025 &middot; Spring 2022&ndash;2025 &middot; Summer 2020&ndash;2024</td>
+    </tr>
+    <tr>
+      <td>The Economics of Food and Agriculture: Sustainable Solutions for a Changing World</td>
+      <td>Undergraduate</td>
+      <td>Fall 2025</td>
+    </tr>
+    <tr>
+      <td>Graduate Seminar in Applied Economics</td>
+      <td>Graduate</td>
+      <td>Fall 2024&ndash;2025 &middot; Spring 2024&ndash;2026</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+## Previously Taught Courses
+
+<div class="table-responsive">
+<table class="table table-sm">
+  <thead>
+    <tr>
+      <th>Course</th>
+      <th>Level</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Microeconomics of Economic Development</td>
+      <td>Graduate</td>
+      <td>Fall 2020, 2021</td>
+    </tr>
+    <tr>
+      <td>Consumption Theory and Price Analysis</td>
+      <td>Graduate</td>
+      <td>University of Arizona, 2018</td>
+    </tr>
+    <tr>
+      <td>Advanced Methods in Impact Assessment to the CGIAR</td>
+      <td></td>
+      <td>IRRI &ndash; Los Ba&ntilde;os (2019) &middot; WorldFish &ndash; Penang (2017)</td>
+    </tr>
+    <tr>
+      <td>Introduction to Macroeconomics</td>
+      <td>Undergraduate</td>
+      <td>Purdue University, 2015</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+## Instructional Materials
+
+**Ethics in Applied Economics** (with Jeffrey Michler) &mdash; lecture materials from our graduate ethics workshop, part of the BITSS-funded *Open Science in Agricultural Economics* project ([osf.io/3vtng](https://osf.io/3vtng/), under Files &gt; BITSS: Open Science in Agricultural Economics):
+
+- [Research and Ethics in Agricultural and Resource Economics: First Years, Part 1]({{ '/assets/pdf/lecture-ethics1-year1.pdf' | relative_url }})
+- [Research and Ethics in Agricultural and Resource Economics: Conducting Ethical Research]({{ '/assets/pdf/lecture-ethics2-year1.pdf' | relative_url }}) (Ethics 2, Year 1)
+- [Research and Ethics in Agricultural and Resource Economics: Publishing and Peer Review]({{ '/assets/pdf/lecture-ethics1-year2.pdf' | relative_url }}) (Ethics 1, Year 2)
+- [Project description and additional links]({{ '/assets/pdf/open-science-agecon-description.pdf' | relative_url }})
+
+Feel free to reach out for more materials from this project.
+
+**Coding and Pre-Analysis Plans for Industry**, by Ann Furbush &mdash; developed for her BITSS award, [Pre-Specification and Reproducibility Outside of Academia](https://www.bitss.org/pre-specification-and-reproducibility-outside-of-academia/):
+
+- [Coding Best Practices and Version Control]({{ '/assets/pdf/furbush-coding-best-practices.pdf' | relative_url }})
+- [Pre-Analysis Planning in Non-Academic Research]({{ '/assets/pdf/furbush-pre-analysis-planning.pdf' | relative_url }})
 
 ## Student Awards
 
