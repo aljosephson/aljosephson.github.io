@@ -10,7 +10,7 @@ My research centers on the measurement and mismeasurement and how these elements
 
 I also study the process of economic research, including ethics and generative AI in research and gender in the profession. My book with Jeffrey Michler, [*Research Ethics in Applied Economics: A Practical Guide*](https://www.routledge.com/Research-Ethics-in-Applied-Economics-A-Practical-Guide/Josephson-Michler/p/book/9780367457419), is available from [Routledge](https://www.routledge.com/Research-Ethics-in-Applied-Economics-A-Practical-Guide/Josephson-Michler/p/book/9780367457419) and [Amazon](https://www.amazon.com/Research-Ethics-Applied-Economics-Practical-ebook/dp/B0BX9F56CF).
 
-For a full list of publications, see my [CV]({{ '/cv/' | relative_url }}) or [Google Scholar profile](https://scholar.google.com/citations?user=ImFz5JYAAAAJ).
+For a full list of publications, see my [CV]({{ '/cv/' | relative_url }}) or [Google Scholar profile](https://scholar.google.com/citations?user=pnF-j68AAAAJ).
 
 ## Measurement in Weather and Agriculture
 
