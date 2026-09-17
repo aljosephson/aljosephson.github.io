@@ -26,6 +26,14 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
+// Sub-headings within page prose (e.g. individual project names under a
+// research theme's H2) read as too prominent at Bootstrap's default H3
+// size, which sits close to H2. Scoped to page content only.
+.post article h3 {
+  font-size: 1.2rem;
+  margin-top: 1.75rem;
+}
+
 // Profile
 .profile {
   img {

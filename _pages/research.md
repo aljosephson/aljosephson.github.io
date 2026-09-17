@@ -20,7 +20,7 @@ This work seeks to quantify the significance and magnitude of the effect of meas
 
 Our two publications from this project have been published in the *Journal of Development Economics*: [“Privacy protection, measurement error, and the integration of remote sensing and socioeconomic survey data”](https://www.sciencedirect.com/science/article/pii/S0304387822000839) and [“The Mismeasure of Weather: Using Earth Observation in Applied Economic Contexts.”](https://www.sciencedirect.com/science/article/abs/pii/S030438782500104X) We also have a working paper available on arXiv: [“The Mis-Measure of Weather: Using Remotely Sensed Earth Observation Data in Economic Contexts.”](https://arxiv.org/abs/2409.07506)
 
-A related strand of this work interrogates the robustness of weather-based identification strategies themselves. “Cloudy With A Chance of Significance: Specification Search and the Illusion of Exogeneity in Remotely Sensed Weather Data” (with J.D. Michler, C. Agme, T. Kilic) examines how sensitive commonly used weather instruments are to specification choices — a direct stress test of the methods underlying much of the applied weather-economics literature, including our own.
+A related strand of this work interrogates the robustness of weather-based identification strategies themselves. “Cloudy With A Chance of Significance: Specification Search and the Illusion of Exogeneity in Remotely Sensed Weather Data” (with J.D. Michler, C. Agme, T. Kilic) examines how sensitive commonly used weather instruments are to specification choices, serving as a direct stress test of the methods underlying much of the applied weather-economics literature, including our own.
 
 ### Leveraging in Situ Sensors to Improve Measurement of Weather, Climate Variability, and Links to Socioeconomic Outcomes
 
@@ -56,7 +56,7 @@ This work examines how resources, income, and decision-making authority are dist
 
 Current food insecurity measures have been used in disaster contexts, but there are distinct challenges to food security in a post-disaster context. Providing sufficient calories while also addressing dietary quality and nutrition is difficult to do in a disaster setting, with widespread disruption to infrastructure, supply chains, and organizational and social systems. Thus, this research works to establish a new metric that captures dimensions of food insecurity affected in a disaster context, in order to improve food security measurement, better estimate food insecurity prevalence during community-level disruptions, and enhance emergency food assistance to support families coping with widespread disruption to infrastructure, supply chains, organizational and social networks, personal property, and daily routines. Collaborators: N. Koyratty (IFPRI), L. Clay (University of Maryland), M. Niles (Brown).
 
-A publication from this project was published in the *Journal of the Academy of Nutrition and Dietetics*: [“A Mixed-Methods Approach to the Development of a Disaster Food Security Framework.”](https://www.sciencedirect.com/science/article/pii/S2212267223002368) A related paper, currently in review with N. Koyratty, C. Byker-Shanks, M. Niles, S. Bliss, and L. Clay, presents the development and psychometric validation of a Disaster Food Security Scale — a concrete step toward the new metric described above.
+A publication from this project was published in the *Journal of the Academy of Nutrition and Dietetics*: [“A Mixed-Methods Approach to the Development of a Disaster Food Security Framework.”](https://www.sciencedirect.com/science/article/pii/S2212267223002368) A related paper, currently in review with N. Koyratty, C. Byker-Shanks, M. Niles, S. Bliss, and L. Clay, presents the development and psychometric validation of a Disaster Food Security Scale, a concrete step toward the new metric described above.
 
 ## Climate, Crises, and Resilience
 
@@ -68,11 +68,11 @@ This project explores how individuals and institutions perceive and value the ec
 
 ### Risk and Rainfall
 
-With R. Branham and J. Michler, this project examines how farmers' risk preferences are shaped by their direct experience with crop shocks — connecting behavioral risk attitudes to the climate-adaptation valuation questions above.
+With R. Branham and J. Michler, this project examines how farmers' risk preferences are shaped by their direct experience with crop shocks, connecting behavioral risk attitudes to the climate-adaptation valuation questions above.
 
 ### Coping with Extreme Heat
 
-With J. Lanser, this project examines cooling strategies and access constraints during extreme heat events in Puerto Rico — extending the climate-hazard agenda beyond drought and rainfall variability to heat as a distinct risk.
+With J. Lanser, this project examines cooling strategies and access constraints during extreme heat events in Puerto Rico, extending the climate-hazard agenda beyond drought and rainfall variability to heat as a distinct risk.
 
 ### The Value of Public Lands
 
@@ -90,4 +90,4 @@ This work reviews how artificial intelligence is reshaping applied economics res
 
 ### TRACE: A Lifecycle Framework for AI Disclosure in Science
 
-This paper proposes a lifecycle framework for disclosing AI use in scientific research — moving from general principles about AI's role in economics (above) toward a concrete, actionable disclosure standard. Currently in review.
+This paper proposes a lifecycle framework for disclosing AI use in scientific research, moving from general principles about AI's role in economics (above) toward a concrete, actionable disclosure standard. Currently in review.

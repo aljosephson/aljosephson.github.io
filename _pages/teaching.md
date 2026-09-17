@@ -81,8 +81,8 @@ I have studied instructional pedagogy in economics, including active and experie
 
 ## Student Awards
 
-- *Outstanding Master's Thesis, AAEA* — Advisor to Chandrakant Agme (2025), "Variable Selection in Economic Applications of Remotely Sensed Weather Data"; and Emil Kee-Tui (2022), "Labor, Credit, and Markets: Evidence from the Philippines, 1971&ndash;2016"
-- *VIP and CURE Poster Session: People's Choice Award* — Mentor to Kieran Douglas &amp; Aurora Seekins (2025)
+- *Outstanding Master's Thesis, AAEA*, advisor to Chandrakant Agme (2025), "Variable Selection in Economic Applications of Remotely Sensed Weather Data"; and Emil Kee-Tui (2022), "Labor, Credit, and Markets: Evidence from the Philippines, 1971&ndash;2016"
+- *VIP and CURE Poster Session: People's Choice Award*, mentor to Kieran Douglas &amp; Aurora Seekins (2025)
 
 ## Instructional Materials
 
