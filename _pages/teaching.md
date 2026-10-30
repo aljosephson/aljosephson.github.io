@@ -32,12 +32,12 @@ I have studied instructional pedagogy in economics, including active and experie
     <tr>
       <td>The Economics of Food and Agriculture: Sustainable Solutions for a Changing World</td>
       <td>Undergraduate</td>
-      <td>Fall 2025</td>
+      <td>Fall 2025 &middot; Spring 2027</td>
     </tr>
     <tr>
       <td>Graduate Seminar in Applied Economics</td>
       <td>Graduate</td>
-      <td>Fall 2024&ndash;2025 &middot; Spring 2024&ndash;2026</td>
+      <td>Fall 2024&ndash;2025 &middot; Spring 2024&ndash;2027</td>
     </tr>
   </tbody>
 </table>
