@@ -98,3 +98,9 @@ Feel free to reach out for more materials from this project.
 
 - [Coding Best Practices and Version Control]({{ '/assets/pdf/furbush-coding-best-practices.pdf' | relative_url }})
 - [Pre-Analysis Planning in Non-Academic Research]({{ '/assets/pdf/furbush-pre-analysis-planning.pdf' | relative_url }})
+
+**Lecture Series on Proposal Writing and Ethics in Applied Economics** at Stellenbosch University, supported by BITSS funding:
+
+- [Finding a Good Research Question]({{ '/assets/pdf/stellenbosch-lecture1-research-question.pdf' | relative_url }})
+- Finding and Understanding the Literature (forthcoming)
+- Basics of Data Management (forthcoming)
