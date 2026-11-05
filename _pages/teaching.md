@@ -102,5 +102,5 @@ Feel free to reach out for more materials from this project.
 **Lecture Series on Proposal Writing and Ethics in Applied Economics** at Stellenbosch University, supported by BITSS funding:
 
 - [Finding a Good Research Question]({{ '/assets/pdf/stellenbosch-lecture1-research-question.pdf' | relative_url }})
-- Finding and Understanding the Literature (forthcoming)
+- [Reading and Using the Literature]({{ '/assets/pdf/stellenbosch-lecture2-literature.pdf' | relative_url }})
 - Basics of Data Management (forthcoming)
